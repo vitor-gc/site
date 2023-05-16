@@ -1,21 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
+:root {
+    --cor-de-fundo: #EBECEE;
 }
-body{background-color: blueviolet;}
-.cabeçalho-imagem{
-    width: 20%;
+body {
+    background-color: var(--cor-de-fundo);
 }
-.cabeçalho {
-    background-color: chartreuse;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-}
-.cabeçalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+h1 {
+    background-color: white;
 }
